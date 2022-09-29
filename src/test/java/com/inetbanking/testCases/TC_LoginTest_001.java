@@ -22,7 +22,7 @@ public class TC_LoginTest_001 extends BaseClass {
 	lp.clickSubmit();
 	log.info("clicked on submit");
 	
-	Assert.assertEquals("Guru99 Bank Manager HomePage122", driver.getTitle());
+	Assert.assertEquals("Guru99 Bank Manager HomePage", driver.getTitle());
 	
 	
 	/*if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))// this alternate approach to validate TC and taking Screenshot

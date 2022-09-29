@@ -1,3 +1,3 @@
 F:
-cd F:\RestAssured\inetbanking
-mvn clean install
+cd F:\Automation Projects\iNetBanking_v1_TDD
+mvn clean test
